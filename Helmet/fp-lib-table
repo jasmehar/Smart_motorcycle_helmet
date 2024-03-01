@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "C:/Users/17088/Downloads/UIUC/ECE 445/LM340K_5_0_NOPB/KiCAD/footprints.pretty")(options "")(descr ""))
+  (lib (name "ECE 445")(type "KiCad")(uri "C:/Users/17088/Downloads/UIUC/ECE 445")(options "")(descr ""))
+)
