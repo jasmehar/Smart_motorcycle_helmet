@@ -1,0 +1,17 @@
+Info: Processing symbol '+12V1:Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical'.
+Info: Processing symbol 'BlueTooth1:Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical'.
+Info: Processing symbol 'C1:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Processing symbol 'LED1:Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical'.
+Info: Processing symbol 'Q1:Package_TO_SOT_THT:TO-220-3_Vertical'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Processing symbol 'SW1:Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm'.
+Info: Processing symbol 'U1:footprints:LM340K-5.0&slash_NOPB'.
+Info: Processing symbol 'U2:Package_TO_SOT_SMD:TO-252-2'.
+Info: Processing symbol 'U3:RF_Module:ESP32-WROOM-32'.
+Info: Processing symbol 'U4:Package_SO:SSOP-28_5.3x10.2mm_P0.65mm'.
+Warning: No net found for symbol U4 pin 8.
+Warning: No net found for symbol U4 pin 24.
+
+
+Info: Total warnings: 2, errors: 0.

@@ -1,0 +1,7 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LM")(type "KiCad")(uri "C:/Users/17088/Downloads/UIUC/ECE 445/LM340K_5_0_NOPB/KiCAD/footprints.pretty")(options "")(descr ""))
+  (lib (name "TSL2561")(type "KiCad")(uri "C:/Users/17088/Downloads/UIUC/ECE 445/TSL2561")(options "")(descr ""))
+  (lib (name "LP")(type "KiCad")(uri "C:/Users/17088/Downloads/UIUC/ECE 445/ul_LP2950-30LP/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Button_Switch_SMD")(type "KiCad")(uri "C:/Users/17088/Downloads/UIUC/Button_Switch_SMD.pretty/Button_Switch_SMD.pretty")(options "")(descr ""))
+)
