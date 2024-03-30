@@ -1,0 +1,12 @@
+{
+    "idf.adapterTargetName": "esp32s3",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-builtin.cfg"
+    ],
+    "idf.portWin": "COM4",
+    "idf.flashType": "JTAG",
+    "files.associations": {
+        "tsl2561_defs.h": "c",
+        "tsl2561.h": "c"
+    }
+}
