@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LM340")(type "KiCad")(uri "C:/Users/17088/Downloads/UIUC/ECE 445/LM340K_5_0_NOPB/KiCAD/footprints.pretty")(options "")(descr ""))
+  (lib (name "ECE 445")(type "KiCad")(uri "C:/Users/17088/Downloads/UIUC/ECE 445")(options "")(descr ""))
+  (lib (name "Jason's esp32")(type "KiCad")(uri "C:/Users/17088/Downloads/UIUC/ECE 445/Jason's esp32")(options "")(descr ""))
+  (lib (name "LP2950")(type "KiCad")(uri "C:/Users/17088/Downloads/UIUC/ECE 445/ul_LP2950-30LP/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "IRL")(type "KiCad")(uri "C:/Users/17088/Downloads/UIUC/ECE 445/IRLZ44NPBF/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "Example")(type "KiCad")(uri "C:/Users/17088/Downloads/UIUC/ECE 445/Jason's Footprints/local_footprints.pretty")(options "")(descr ""))
+  (lib (name "Button_Switch_SMD")(type "KiCad")(uri "C:/Users/17088/Downloads/UIUC/Button_Switch_SMD.pretty/Button_Switch_SMD.pretty")(options "")(descr ""))
+)
