@@ -36,6 +36,7 @@ const uint8_t notificationOff[] = {0x0, 0x0};
 #define LED_GPIO_RIGHT 16
 #define LED_GPIO_LEFT 15
 #define LED_GPIO_BLUETOOTH 5
+#define VOLTAGE_INPUT 13
 
 //boolean for new light readings 
 boolean New_break = false;
@@ -115,6 +116,7 @@ void setup() {
   pinMode(LED_GPIO_LEFT, OUTPUT);
   pinMode(LED_GPIO_RIGHT, OUTPUT);
   pinMode(LED_GPIO_BLUETOOTH, OUTPUT);
+  pinMode(VOLTAGE_INPUT, INPUT);
 
   //Start serial0 communication
   Serial0.begin(115200);
@@ -132,6 +134,8 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
+  // int volt = analogRead(13);
+  // Serial0.println(volt);
   if (doConnect == true) {
     digitalWrite(LED_GPIO_BLUETOOTH, HIGH);
     if (connectToServer(*pServerAddress)) {
@@ -147,6 +151,15 @@ void loop() {
     }
     doConnect = false;
   }
+  //   if (doConnect == true && volt < 3000 ) {
+  //     while(volt < 3000){
+  //     Serial0.println("Battery 20% please charge");
+  //     digitalWrite(LED_GPIO_BLUETOOTH, HIGH); // Set GPIO7 active high
+  //     delay(100);  // delay of one second
+  //     digitalWrite(LED_GPIO_BLUETOOTH, LOW); // Set GPIO7 active low
+  //     delay(100); // delay of one second
+  //     }
+  // }
  if(New_break){
   digitalWrite(LED_GPIO_BREAK, HIGH);
   New_break = false;
